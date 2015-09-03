@@ -1,2 +1,2 @@
 #!/bin/sh
-zip -r tigerhub-redirector.zip . -x *.git* *.DS_Store* *package.sh*
+zip -r tigerhub-redirector.zip . -x *.git* *.DS_Store* *package.sh* *screenshot.png*
