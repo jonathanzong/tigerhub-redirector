@@ -8,7 +8,7 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-    "matches": ["https://phubprod.princeton.edu/psp/phubprod/?cmd=start&cmd=login&errorCode=105&languageCd=ENG"],
+    "matches": ["https://puaccess.princeton.edu/pusa/psftError.jsp?errorMsg1=Your+User+ID+and%2For+Password+are+invalid.&errorMsg2="],
     "js": ["content.js"]
     }
   ],
