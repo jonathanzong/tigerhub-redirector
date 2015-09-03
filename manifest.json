@@ -1,0 +1,16 @@
+{
+  "name": "Tigerhub Redirector",
+  "version": "0.1",
+  "description": "Takes you to Tigerhub -- after you've logged in but before Tigerhub has realized it.",
+  "background": { 
+    "page":"bg.html"
+  },
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+    "matches": ["https://phubprod.princeton.edu/psp/phubprod/?cmd=start&cmd=login&errorCode=105&languageCd=ENG"],
+    "js": ["content.js"]
+    }
+  ],
+  "permissions": ["tabs"]
+}
